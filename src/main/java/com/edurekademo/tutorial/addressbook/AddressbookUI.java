@@ -71,7 +71,7 @@ public class AddressbookUI extends UI {
          */
         newContact.addClickListener(e -> contactForm.edit(new Contact()));
 
-        filter.setInputPrompt("Testing for RelQSoft DevOPs training adding to this");
+        filter.setInputPrompt("Testing for RelQSoft DevOPs training adding to this to check if ansible works 21st dec");
         filter.addTextChangeListener(e -> refreshContacts(e.getText()));
 
         contactList
