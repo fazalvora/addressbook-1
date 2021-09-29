@@ -1,2 +1,3 @@
-FROM tomcat
-COPY target/addressbook.war /usr/local/tomcat/webapps/
+FROM jetty
+COPY target/addressbook.war /
+CMD ["java","-jar","/addressbook.war"]
