@@ -60,7 +60,7 @@ public class ContactForm extends FormLayout {
         HorizontalLayout actions = new HorizontalLayout(save, cancel);
         actions.setSpacing(true);
 
-        addComponents(actions, firstName, lastname123, phone, email, birthDate);
+        addComponents(actions, firstName, lastname1234, phone, email, birthDate);
     }
 
     /*
